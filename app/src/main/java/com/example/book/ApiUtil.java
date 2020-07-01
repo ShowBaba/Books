@@ -19,7 +19,8 @@ public class ApiUtil {
     private ApiUtil(){}
 
     public static final String BASE_API_URL =
-            "https://www.googleapis.com/books/v1/volumes";
+            //add your API Key here;
+
     public static final String QUERY_PARAMETER_KEY = "q";
     public static final String KEY = "key";
     public static final String API_KEY = "AIzaSyC7BwAHNsZX9xXcsqXN2Two-d4TbT9gclg";
