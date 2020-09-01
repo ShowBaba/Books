@@ -117,7 +117,7 @@ public class ApiUtil {
                 JSONObject volumeInfoJSON =
                         bookJSON.getJSONObject(VOLUMEINFO);
                 JSONObject imageLinksJSON=null;
-                //qui problema
+                
                 if (volumeInfoJSON.has(IMAGEINFO)) {
                     imageLinksJSON = volumeInfoJSON.getJSONObject(IMAGEINFO);
                 }
